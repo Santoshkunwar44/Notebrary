@@ -1,0 +1,20 @@
+const express = require("express");
+const app = express();
+const mongoose = require("mongoose");
+require("dotenv").config();
+
+// using the Middlewares
+app.use(express.json());
+app.get("/",(req,res)=>{
+    res.status(200).json({success:true,data:"hello"})
+})
+mongoose
+  .connect(process.env.MONGO_URL)
+  .then(() => console.log("connected to Database"))
+  .catch((err) => console.log(err));
+
+
+  //Available Routes
+   app.use("/api/auth",require("./routes/auth"))
+
+app.listen(8000, () => console.log("server started"));
