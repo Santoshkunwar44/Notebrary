@@ -1,0 +1,21 @@
+.notesContainer{
+    width: 20%;
+    border: 2px solid rebeccapurple;
+    padding: 10px;
+    margin: 5px ;
+    border-radius: 8px;
+    height: 200px;
+}
+.notesContainer p{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin: 10px 0;
+
+}
+.notesContainer .notesTitle{
+    font-weight: bolder;
+
+}
+
+

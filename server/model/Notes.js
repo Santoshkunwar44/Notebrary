@@ -1,6 +1,10 @@
 const mongoose = require("mongoose");
 
 const noteSchema = mongoose.Schema({
+  user: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref:"user"
+  },
   title: {
     type: String,
     required: true,
@@ -8,11 +12,10 @@ const noteSchema = mongoose.Schema({
   description: {
     type: String,
     required: true,
- 
   },
   tag: {
     type: String,
-    default:"General"
+    default: "General",
   },
   createdAt: {
     type: Date,

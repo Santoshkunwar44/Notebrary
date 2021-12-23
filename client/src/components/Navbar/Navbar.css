@@ -1,0 +1,36 @@
+*{
+    font-family: 'Playfair Display', serif;
+    list-style: none;
+}
+
+
+.navWrapper{
+    height: 4rem;
+    border-bottom: 1px solid #888888;
+    display: flex;
+    align-items: center;
+}
+.navTitle{
+    flex: 4;
+    padding-left: 20px;
+  
+}
+.navTitle >h2{
+    font-family: 'Inspiration', cursive;
+    letter-spacing: 3px;
+}
+.navContent{
+    flex: 8;
+}
+.navListItems{
+    display: flex;
+    justify-content: center;
+
+
+}
+.navListItems li{
+    margin: 0 10px;
+    font-weight: 700;
+    color: #353b48;
+    letter-spacing: 1.3px;
+}
