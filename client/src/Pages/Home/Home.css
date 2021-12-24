@@ -1,4 +1,11 @@
 .homeWrapper{
     display: flex;
     height: 85vh;
+
+}
+.homeMain{
+    flex: 9;
+  padding: 0 20px;
+
+
 }

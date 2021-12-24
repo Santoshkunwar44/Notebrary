@@ -30,7 +30,18 @@
 }
 .navListItems li{
     margin: 0 10px;
-    font-weight: 700;
+    font-weight: 600;
     color: #353b48;
+    cursor: pointer;
     letter-spacing: 1.3px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: inherit;
+}
+.active{
+    color: black;
+    border-bottom: 2px solid black ;
+    font-weight: bolder;
 }
