@@ -10,7 +10,7 @@ const fetchUser = async (req, res, next) => {
       error: "should not be empty",
     });
   }
-  console.log(token);
+
   try {
     const string = JWT.verify(token, JWT_SECRET);
     req.user = string.user;

@@ -18,7 +18,7 @@
     margin-top: 25px;
 
 }
-.createnoteAddInput >input{
+.createnoteAddInput input{
     border-radius: 8px;
     width: 98% ;
   padding: 10px 5px;
@@ -46,3 +46,11 @@ padding-right: 0px;
      margin: 0 10px;
     
 } 
+button{
+    padding: 5px 8px;
+    background-color: green;
+    color: white;
+    border-radius: 6px;
+    outline: none;
+    border:none;
+}
